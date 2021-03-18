@@ -6,7 +6,7 @@
 }
 
 body {
-
+    height: 100$;
 }
 
 header.headwrapper {
@@ -58,10 +58,10 @@ a.playstore, a.appstore {
 }
 
 footer {
-    margin: auto;
-    margin-top: 50px;
-    width: 100%;
+    position: initial;
+    margin-top: 40px;
     margin-bottom: 20px;
+    width: 100%;
     color: #323232;
 }
 
@@ -107,4 +107,6 @@ footer a {
         text-align: left;
         margin-bottom: 80px;
     }
+
+   
 }
