@@ -25,9 +25,14 @@ div.logowrapper {
     vertical-align: middle;
 }
 
+img.appimage {
+    width: 200px;
+    transition: all .3s ease-in-out;
+}
+
 div.tagwrapper {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 h1.tagline {
@@ -39,8 +44,47 @@ span.caption {
     display: inline-block;
     max-width: 80%;
     word-wrap: normal;
+    margin-bottom: 20px;
 }
 
 a.playstore, a.appstore {
     display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    img.appimage {
+        display: inline-block;
+        vertical-align: middle;
+        width: 260px;
+        transition: all .3s ease-in-out;
+    }
+
+    div.tagwrapper {
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    div.taglines {
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 20px;
+        vertical-align: bottom;
+    }
+
+    h1.tagline, h1.sub-tagline, span.caption {
+        text-align: left;
+    }
+
+    span.caption {
+        display: block;
+        max-width: 440px;
+    }
+
+    div.dlwrapper {
+        display: block;
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 40px;
+    }
 }
