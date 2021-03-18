@@ -14,8 +14,8 @@ div.headwrapper {
 }
 
 div.logowrapper {
-    width: 70px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -37,7 +37,7 @@ h1.tagline {
 span.caption {
     margin-top: 10px;
     display: inline-block;
-    max-width: 400px;
+    max-width: 80%;
     word-wrap: normal;
 }
 
