@@ -10,7 +10,14 @@ body {
 }
 
 div.headwrapper {
-    margin-top: 20px;
+    left: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
 }
 
 div.logowrapper {
@@ -26,12 +33,12 @@ div.logowrapper {
 }
 
 img.appimage {
-    width: 200px;
+    width: 180px;
     transition: all .3s ease-in-out;
 }
 
 div.tagwrapper {
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -61,8 +68,8 @@ a.playstore, a.appstore {
 
     div.tagwrapper {
         margin: 0 auto;
-        margin-top: 40px;
-        margin-bottom: 20px;
+        margin-top: 120px;
+        margin-bottom: 50px;
     }
 
     div.taglines {
@@ -85,6 +92,6 @@ a.playstore, a.appstore {
         display: block;
         margin: 0 auto;
         text-align: left;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
 }
