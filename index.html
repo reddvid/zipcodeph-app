@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header class="headwrapper">
+<body id="main-body" class="main-body">
+    <header id="main-header" class="headwrapper">
         <div class="logowrapper">
             <img class="headlogo" src="assets/applogo.svg" height="50" alt="ZIP Code PH Logo" />
         </div>
@@ -18,7 +18,8 @@
     </header>
 
     <main class="tagwrapper">
-        <img class="appimage" src="assets/iphone12.png" width="200px" alt="App Screenshot on iPhone 12"/>
+        <img id="app-image" class="appimage" src="assets/iphone12.png" width="200px"
+            alt="App Screenshot on iPhone 12" />
         <div class="taglines">
             <h1 class="tagline">Search ZIP codes of the Philippines</h1>
             <h1 class="sub-tagline">Anywhere. Anytime.</h1>
@@ -38,9 +39,31 @@
         </div>
     </main>
 
-    <footer>
+    <footer id="footer">
         <p>Developed by <a href="https://reddavid.me" />Red David</a></p>
     </footer>
+
+    <!-- Auto Dark Mode by detecting system time -->
+    <script>
+        window.onload = function (e) {
+            var today = new Date();
+            var time = today.getHours();
+            // time = 7;
+
+            if (time >= 0 && time <= 6 || time >= 19 && time <= 23) {
+                var body = document.getElementById('main-body');
+                var footer = document.getElementById('footer');
+                var header = document.getElementById('main-header');
+                var appImage = document.getElementById('app-image');
+
+                body.style.backgroundColor = "#171717";
+                header.style.backgroundColor = "#101010";
+                appImage.src = "assets/iphone12-dark.png";
+                footer.style.color = body.style.color = "#FFFFFF";
+            }
+
+        };
+    </script>
 </body>
 
 </html>

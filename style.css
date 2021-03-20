@@ -5,9 +5,10 @@
     text-align: center;
 }
 
-body {
+body.main-content {
     background-color: #F3F3F3;
     color: #131313;
+    transition: all .3s ease-in-out;
 }
 
 header.headwrapper {
@@ -19,6 +20,7 @@ header.headwrapper {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #E5E5E5;
+    transition: all .3s ease-in-out;
 }
 
 div.logowrapper {
@@ -69,7 +71,7 @@ footer {
 footer a {
     text-decoration: none;
     text-align: center;
-    color: #323232;
+    color: #d10404;
 }
 
 @media only screen and (min-width: 768px) {
