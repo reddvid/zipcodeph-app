@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+body {
+    background-color: #F3F3F3;
+    color: #131313;
+}
+
 header.headwrapper {
     left: 0;
     text-align: center;
@@ -13,7 +18,7 @@ header.headwrapper {
     top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #FFFFFF;
+    background-color: #E5E5E5;
 }
 
 div.logowrapper {
@@ -33,7 +38,7 @@ img.appimage {
     transition: all .3s ease-in-out;
 }
 
-div.tagwrapper {
+main.tagwrapper {
     margin-top: 80px;
 }
 
@@ -41,7 +46,7 @@ h1.tagline {
     margin-top: 10px;
 }
 
-span.caption {
+p.caption {
     margin-top: 10px;
     display: inline-block;
     max-width: 80%;
@@ -75,7 +80,7 @@ footer a {
         transition: all .3s ease-in-out;
     }
 
-    div.tagwrapper {
+    main.tagwrapper {
         margin: 0 auto;
         margin-top: 120px;
         margin-bottom: 50px;
@@ -88,11 +93,11 @@ footer a {
         vertical-align: bottom;
     }
 
-    h1.tagline, h1.sub-tagline, span.caption {
+    h1.tagline, h1.sub-tagline, p.caption {
         text-align: left;
     }
 
-    span.caption {
+    p.caption {
         display: block;
         max-width: 440px;
     }
