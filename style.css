@@ -6,7 +6,7 @@
 }
 
 body.main-content {
-    background-color: #F3F3F3;
+    background-color: #E5E5E5;
     color: #131313;
     transition: all .3s ease-in-out;
 }
@@ -19,7 +19,7 @@ header.headwrapper {
     top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #E5E5E5;
+    background-color: #F3F3F3;
     transition: all .3s ease-in-out;
 }
 
