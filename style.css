@@ -1,0 +1,115 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body.main-body {
+    background-color: #E5E5E5;
+    color: #131313;
+    transition: all .3s ease-in-out;
+}
+
+header.headwrapper {
+    left: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F3F3F3;
+    transition: all .3s ease-in-out;
+}
+
+div.logowrapper {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img.appimage {
+    width: 180px;
+    transition: all .3s ease-in-out;
+}
+
+main.tagwrapper {
+    margin-top: 80px;
+}
+
+h1.tagline {
+    margin-top: 10px;
+}
+
+p.caption {
+    margin-top: 10px;
+    display: inline-block;
+    max-width: 80%;
+    word-wrap: normal;
+    margin-bottom: 20px;
+}
+
+a.playstore, a.appstore {
+    display: inline-block;
+}
+
+footer {
+    position: initial;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #323232;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    color: #d10404;
+}
+
+@media only screen and (min-width: 768px) {
+    img.appimage {
+        display: inline-block;
+        vertical-align: middle;
+        width: 260px;
+        transition: all .3s ease-in-out;
+    }
+
+    main.tagwrapper {
+        margin: 0 auto;
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+
+    div.taglines {
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 20px;
+        vertical-align: bottom;
+    }
+
+    h1.tagline, h1.sub-tagline, p.caption {
+        text-align: left;
+    }
+
+    p.caption {
+        display: block;
+        max-width: 440px;
+    }
+
+    div.dlwrapper {
+        display: block;
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 80px;
+    }
+
+   
+}
