@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-body.main-content {
+body.main-body {
     background-color: #E5E5E5;
     color: #131313;
     transition: all .3s ease-in-out;
