@@ -50,7 +50,6 @@ img.appimage {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 25vw;
-  transition: all 0.3s ease-in-out;
 }
 
 main.tagwrapper {
@@ -142,7 +141,7 @@ a.ms-store {
     margin: 0;
     margin-bottom: 20px;
     width: 15vw;
-    transition: all 0.3s ease-in-out;
+    max-width: 200px;
   }
 
   main {
@@ -188,5 +187,6 @@ a.ms-store {
   img#desktop-app-image {
     width: 50vw;
     margin-bottom: 10px;
+    max-width: 660px;
   }
 }
