@@ -100,7 +100,7 @@ footer a {
   color: #d10404;
 }
 
-section {
+section#windows-app {
   margin-top: 5rem;
   margin-bottom: 3rem;
 }
@@ -123,11 +123,11 @@ a.ms-store {
   margin-bottom: 10rem;
 }
 
-a.lb-ad {
+a#lb-ad {
   display: none;
 }
 
-a.b-ad {
+a#b-ad {
   display: inline-block;
 }
 
@@ -185,7 +185,7 @@ a.b-ad {
     margin-bottom: 80px;
   }
 
-  section {
+  section#windows-app {
     display: inline-block;
     margin-bottom: 0pt;
     margin-top: 0;
@@ -199,11 +199,11 @@ a.b-ad {
     max-width: 660px;
   }
 
-  a.lb-ad {
+  a#lb-ad {
     display: inline-block;
   }
 
-  a.b-ad {
+  a#b-ad {
     display: none;
   }
 }
