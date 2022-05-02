@@ -91,6 +91,7 @@ footer {
   bottom: 2rem;
   width: 100%;
   color: #323232;
+  font-size: 0.8rem;
 }
 
 footer a {
@@ -120,6 +121,14 @@ img#desktop-app-image {
 a.ms-store {
   margin-top: 20px;
   margin-bottom: 10rem;
+}
+
+a.lb-ad {
+  display: none;
+}
+
+a.b-ad {
+  display: inline-block;
 }
 
 /* Desktop View */
@@ -188,5 +197,13 @@ a.ms-store {
     width: 50vw;
     margin-bottom: 10px;
     max-width: 660px;
+  }
+
+  a.lb-ad {
+    display: inline-block;
+  }
+
+  a.b-ad {
+    display: none;
   }
 }
